@@ -19,6 +19,7 @@ namespace Employees
             fran.GiveBonus(200);
             fran.DisplayStats();
             Console.ReadLine();
+           
         }
     }
 }
