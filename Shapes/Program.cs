@@ -10,6 +10,12 @@ namespace Shapes
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("***** Fun with Polymorphism ******\n");
+            Hexagon hex = new Hexagon("Beth");
+            hex.Draw();
+            Circle cir = new Circle("Cindy");
+            cir.Draw();
+            Console.ReadLine();
         }
     }
 }
