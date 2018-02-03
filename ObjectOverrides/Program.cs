@@ -19,6 +19,19 @@ namespace ObjectOverrides
             Age = personAge;
         }
         public Person() { }
+
+        public override string ToString()
+        {
+            string myState;
+            myState = string.Format("[First Name: {0}; Last Name: {1}; Age: {2}]", FirstName, LastName, Age);
+            return myState;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj.ToString() == this.ToString();  
+        }
+        
     }
     class Program
     {
