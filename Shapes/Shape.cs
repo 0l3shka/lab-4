@@ -13,17 +13,18 @@ namespace Shapes
 
         public string PetName { get; set; }
 
-        public virtual void Draw()
-        {
-            Console.WriteLine("Inside Shape.Draw()");
-        }
+        public abstract void Draw();
+        
     }
 
     class Circle : Shape
     {
         public Circle() { }
         public Circle(string name) : base(name) { }
-
+        public override void Draw()
+        {
+            Console.WriteLine("Drawing {0} the Circle", PetName);
+        }
     }
 
     class Hexagon : Shape
