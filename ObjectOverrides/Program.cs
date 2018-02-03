@@ -12,6 +12,7 @@ namespace ObjectOverrides
         public string LastName { get; set; }
         public int Age { get; set; }
 
+        public string SSN { get; set; }
         public Person(string fName,string lName,int personAge)
         {
             FirstName = fName;
@@ -31,7 +32,12 @@ namespace ObjectOverrides
         {
             return obj.ToString() == this.ToString();  
         }
-        
+
+        public override int GetHashCode()
+        {
+            return this.ToString().GetHashCode();
+        }
+
     }
     class Program
     {
