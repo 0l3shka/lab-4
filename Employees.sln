@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{3EC99C62-86AB-4FF0-92B2-A953DB1844F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{EAA21D86-DE55-4A38-B9A4-DEB1F2443793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3EC99C62-86AB-4FF0-92B2-A953DB1844F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EC99C62-86AB-4FF0-92B2-A953DB1844F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EC99C62-86AB-4FF0-92B2-A953DB1844F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA21D86-DE55-4A38-B9A4-DEB1F2443793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA21D86-DE55-4A38-B9A4-DEB1F2443793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA21D86-DE55-4A38-B9A4-DEB1F2443793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA21D86-DE55-4A38-B9A4-DEB1F2443793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
